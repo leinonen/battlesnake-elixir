@@ -2,7 +2,7 @@ defmodule Snake.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :dds_blog,
+    [app: :snake,
      version: "0.1.0",
      elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
