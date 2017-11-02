@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure for your application as:
 #
-#     config :dds_blog, key: :value
+#     config :snake, key: :value
 #
 # And access this configuration in your application as:
 #
-#     Application.get_env(:dds_blog, :key)
+#     Application.get_env(:snake, :key)
 #
 # Or configure a 3rd-party app:
 #
