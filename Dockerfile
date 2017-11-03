@@ -1,4 +1,4 @@
-FROM trenpixster/elixir:1.3.0
+FROM trenpixster/elixir:1.4.0
 
 RUN mkdir /app
 WORKDIR /app
