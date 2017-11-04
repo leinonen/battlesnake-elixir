@@ -1,9 +1,9 @@
 # Elixir Battle Snake
 
-Simple battle snake using Cowboy, Plug and Poison.
+Simple Battle Snake written in Elixir using Cowboy, Plug and Poison.
 
-### BattleSnake
-https://github.com/sendwithus/battlesnake
+### Elixir
+https://hexdocs.pm/elixir/Kernel.html
 
 ### Cowboy
 https://github.com/ninenines/cowboy
@@ -12,6 +12,9 @@ https://github.com/ninenines/cowboy
 https://github.com/elixir-plug/plug
 
 https://hexdocs.pm/plug/readme.html
+
+### BattleSnake
+https://github.com/sendwithus/battlesnake
 
 ## Running unit tests
 ```

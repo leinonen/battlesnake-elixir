@@ -8,7 +8,12 @@ defmodule Snake.Mixfile do
       elixir: "~> 1.4",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
-      deps: deps()
+      deps: deps(),
+
+      # Docs
+      name: "BattleSnake Elixir",
+      source_url: "https://github.com/leinonen/battlesnake-elixir",
+      homepage_url: "http://leinonen.se"
     ]
   end
 
@@ -35,7 +40,8 @@ defmodule Snake.Mixfile do
     [
       {:plug, ">= 0.8.0"},
       {:cowboy, ">= 1.0.0"},
-      {:poison, ">= 1.3.0"}
+      {:poison, ">= 1.3.0"},
+      {:ex_doc, "~> 0.16", only: :dev, runtime: false}
     ]
   end
 end
